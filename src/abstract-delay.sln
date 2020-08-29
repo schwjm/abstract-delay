@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractDelay", "AbstractTime\AbstractDelay.csproj", "{B5D64E16-68C3-4B91-8FD2-A85A52FA3FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractDelay", "AbstractDelay\AbstractDelay.csproj", "{B5D64E16-68C3-4B91-8FD2-A85A52FA3FD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

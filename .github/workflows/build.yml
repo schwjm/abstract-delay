@@ -1,0 +1,27 @@
+name: .NET Core CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: dotnet restore --verbosity normal src
+    - name: Build
+      run: dotnet build --configuration Release --no-restore --verbosity normal src
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Gravs.AbstractDelay.nupkg
+        path: src/AbstractDelay/bin/Release/*.*nupkg

@@ -9,6 +9,8 @@
   
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Authors>Justin Schwartz</Authors>
     <PackageProjectUrl>https://github.com/schwjm/abstract-delay</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
