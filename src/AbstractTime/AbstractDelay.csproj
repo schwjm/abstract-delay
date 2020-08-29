@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Gravs.AbstractDelay</AssemblyName>
+    <RootNamespace>Gravs.AbstractDelay</RootNamespace>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Authors>Justin Schwartz</Authors>
+    <PackageProjectUrl>https://github.com/schwjm/abstract-delay</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/schwjm/abstract-delay</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
+    <Description>Offers a simple interface to wrap Task.Delay, allowing tests to simulate time passage without spinning.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\Gravs.AbstractDelay.xml</DocumentationFile>
+  </PropertyGroup>
+  
+</Project>
