@@ -8,11 +8,11 @@
   </PropertyGroup>
   
   <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Justin Schwartz</Authors>
     <PackageProjectUrl>https://github.com/schwjm/abstract-delay</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/schwjm/abstract-delay</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/schwjm/abstract-delay.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Description>Offers a simple interface to wrap Task.Delay, allowing tests to simulate time passage without spinning.</Description>
   </PropertyGroup>
