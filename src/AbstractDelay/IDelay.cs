@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace Gravs.AbstractDelay
+namespace Gravitome.AbstractDelay
 {
     /// <summary>
     /// An interface to requesting a delay similar to <see cref="Task.Delay(int, CancellationToken)"/>.

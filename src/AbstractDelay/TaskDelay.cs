@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Gravs.AbstractDelay
+namespace Gravitome.AbstractDelay
 {
     /// <summary>
     /// Pass-through to <see cref="Task.Delay(int, CancellationToken)"/> calls.

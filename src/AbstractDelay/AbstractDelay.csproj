@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>Gravs.AbstractDelay</AssemblyName>
-    <RootNamespace>Gravs.AbstractDelay</RootNamespace>
+    <AssemblyName>Gravitome.AbstractDelay</AssemblyName>
+    <RootNamespace>Gravitome.AbstractDelay</RootNamespace>
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   
@@ -20,7 +20,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\Gravs.AbstractDelay.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Gravitome.AbstractDelay.xml</DocumentationFile>
   </PropertyGroup>
   
 </Project>

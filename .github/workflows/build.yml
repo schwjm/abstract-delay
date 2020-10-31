@@ -23,5 +23,5 @@ jobs:
       run: dotnet build --configuration Release --no-restore --verbosity normal src
     - uses: actions/upload-artifact@v2
       with:
-        name: Gravs.AbstractDelay.nupkg
+        name: Gravitome.AbstractDelay.nupkg
         path: src/AbstractDelay/bin/Release/*.*nupkg
